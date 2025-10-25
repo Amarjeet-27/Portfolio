@@ -32,9 +32,9 @@ export default function Footer({ contact }) {
           >
             <Github />
           </a>
-          <p className="mx-2 text-gray-400 hover:text-cyan-400">
+          {/* <p className="mx-2 text-gray-400 hover:text-cyan-400">
             <Phone />
-          </p>
+          </p> */}
         </div>
         <p className="text-sm">
           &copy; {new Date().getFullYear()} All rights reserved.

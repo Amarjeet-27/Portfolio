@@ -35,13 +35,13 @@ export default function Hero({ config, onPrimary }) {
 
           <button
             onClick={() => onPrimary("projects")}
-            className="px-6 py-3 bg-cyan-600 text-white rounded-lg"
+            className="px-6 py-3 bg-cyan-600 text-white rounded-lg cursor-pointer"
           >
             View Projects
           </button>
           <button
             onClick={() => onPrimary("contact")}
-            className="px-6 py-3 bg-cyan-600 text-white rounded-lg"
+            className="px-6 py-3 bg-cyan-600 text-white rounded-lg cursor-pointer"
           >
             Contact Me
           </button>
