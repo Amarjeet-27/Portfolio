@@ -24,6 +24,19 @@ export default function Hero({ config, onPrimary }) {
             onClick={() => onPrimary("projects")}
             className="px-6 py-3 bg-cyan-600 text-white rounded-lg"
           >
+            <a
+              href="https://drive.google.com/file/d/1uDyAgQMhOc3TxhDyNrj6K9ElJfQ60Sqa/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </button>
+
+          <button
+            onClick={() => onPrimary("projects")}
+            className="px-6 py-3 bg-cyan-600 text-white rounded-lg"
+          >
             View Projects
           </button>
           <button

@@ -14,7 +14,7 @@ export default function ExperienceTimeline({ experience }) {
         </div>
         <div className="relative wrap overflow-hidden p-10 h-full">
           <div
-            className="border-2-2 absolute h-full border border-gray-700"
+            className="absolute h-full border border-gray-700 hidden md:block"
             style={{ left: "50%" }}
           ></div>
           {experience.map((exp, index) => (
