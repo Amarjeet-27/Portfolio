@@ -38,7 +38,7 @@ export default function SkillsSection({ skills, softSkills }) {
           ))}
         </div>
 
-        <div className="mt-12 bg-gray-900 p-6 rounded-xl mx-auto max-w-4xl border border-cyan-800/50">
+        {/* <div className="bg-gray-900 p-6 rounded-xl shadow-2xl border border-cyan-800/50">
           <h3 className="text-xl font-bold mb-4 border-b border-gray-700 pb-2 text-cyan-400">
             Soft Skills
           </h3>
@@ -46,13 +46,13 @@ export default function SkillsSection({ skills, softSkills }) {
             {softSkills.map((s) => (
               <span
                 key={s}
-                className="inline-flex items-center bg-gray-700/70 text-cyan-400 px-4 py-2 rounded-full"
+                className="inline-flex items-center bg-gray-700/70 text-cyan-200 px-4 py-2 rounded-full"
               >
                 {s}
               </span>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -1,16 +1,16 @@
 import {
+  Database,
+  Truck,
   Cpu,
   Code,
-  Layers,
   TrendingUp,
   BookOpen,
   Star,
-  Award,
 } from "lucide-react";
 
 const config = {
   name: "AMARJEET KUMAR CHAURASIA",
-  tagline: "Full-Stack Developer | MERN & Java Backend",
+  tagline: "Full-Stack Developer | MERN & Spring Boot",
   contact: {
     phone: "+91-6204893422",
     email: "ajchaurasia1214@gmail.com",
@@ -26,16 +26,7 @@ const config = {
       "Tailwind CSS",
       "JavaScript",
     ],
-    "Java Backend": [
-      "Java",
-      "J2EE",
-      "Spring",
-      "Spring Boot",
-      "JDBC",
-      "Hibernate",
-      "JPA",
-      "MySQL",
-    ],
+    Java: ["Java", "J2EE", "Spring", "Spring Boot", "JDBC", "Hibernate", "JPA"],
     "Core CS & Low-Level": [
       "C",
       "C++",
@@ -45,9 +36,17 @@ const config = {
       "DBMS",
       "Data Structures and Algorithms",
       "TCP/UDP Sockets",
-      "AES-256",
+      "RESP Protocol",
       "Embedded Systems",
     ],
+    Databases: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+    "Cloud & DevOps": [
+      "Docker",
+      "Kubernetes",
+      "AWS (EC2, S3, Lambda)",
+      "CI/CD",
+    ],
+
     "Tools & Platforms": [
       "Git",
       "GitHub",
@@ -73,9 +72,9 @@ const config = {
       location: "Hyderabad",
       date: "March 2025 - Present",
       description: [
-        "Collaborated to develop secure drone-to-drone communication using multi-threaded C-based TCP/UDP sockets for real-time data exchange in electronics warfare.",
-        "Implemented AES-256 encryption and security protocols, ensuring 100% secure data transmission in distributed systems.",
-        "Optimized embedded systems on ZYBO Z7 ARM using memory-mapped I/O and GPIO, reducing processing time by 50% and achieving microsecond response times.",
+        "Developed scalable, high-performance C/C++ applications using TCP/IP and UDP socket programming, enabling reliable real-time communication in production-grade distributed systems.",
+        "Designed and implemented robust multi-threaded client–server architectures using concurrency models, synchronization mechanisms, and IPC, enabling 5× higher connection handling capacity with sub-50ms response latency under load.",
+        "Optimized network communication workflows and data handling pipelines, reducing data processing overhead by 40% and significantly improving system stability and end-to-end reliability.",
       ],
       icon: Cpu,
     },
@@ -94,17 +93,33 @@ const config = {
   ],
   projects: [
     {
-      title: "Blood Donation Portal - Real-Time Role-Based Platform",
-      stack: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+      title: "Redis-Compatible In-Memory Key-Value Store",
+      Technologies: ["C++", "Linux", "RESP Protocol", "TCP Sockets", "Epoll"],
       summary:
-        "MERN-based platform with portals for donors, hospitals, and NGOs, enabling real-time blood data coordination and direct donor-to-organization interaction.",
-      link: "https://rakta-devta.vercel.app/login",
-      github: "https://github.com/Amarjeet-27/RaktaDevta",
-      icon: Layers,
+        "Built a Redis-compatible, epoll-driven in-memory key–value store in C++ on Linux, using non-blocking sockets and a single-threaded event loop to efficiently handle multiple concurrent clients.",
+      github: "https://github.com/Amarjeet-27/Redis_Epolled",
+      icon: Database,
+    },
+    {
+      title: "FastBite – A Food Delivery Platform",
+      Technologies: [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Hibernate",
+        "Docker",
+        "React.js",
+        "Tailwind CSS",
+      ],
+      summary:
+        "Built a scalable full-stack food delivery system enabling users to browse menus, place real-time orders, and manage accounts.",
+      link: "https://food-frontend-rho-ruby.vercel.app/login",
+      github: "https://github.com/Amarjeet-27/food_frontend",
+      icon: Truck,
     },
     {
       title: "Prep4Int - Interactive DSA Learning Platform",
-      stack: ["HTML", "CSS", "JS", "Node.js", "Express.js", "MongoDB"],
+      Technologies: ["HTML", "CSS", "JS", "Node.js", "Express.js", "MongoDB"],
       summary:
         "Educational website focused on Data Structures and Algorithms (DSA) allowing users to learn topics, get recommendations, and manage personalized DSA notes.",
       link: "https://prep4int-qwqz.onrender.com",
@@ -113,7 +128,7 @@ const config = {
     },
     {
       title: "JobHunter - Distributed Job Aggregation Platform",
-      stack: ["MERN", "Puppeteer", "Node-Cron", "NoSQL"],
+      Technologies: ["MERN", "Puppeteer", "Node-Cron", "NoSQL"],
       summary:
         "Built a job aggregator to scrape and consolidate listings from sites like Naukri using Puppeteer + Node-Cron.",
       link: "https://job-hunter-rosy.vercel.app/",
@@ -123,7 +138,7 @@ const config = {
 
     {
       title: "MyBookStore - Online Bookstore Platform",
-      stack: ["HTML", "CSS", "JS", "Node.js", "Express.js", "MongoDB"],
+      Technologies: ["HTML", "CSS", "JS", "Node.js", "Express.js", "MongoDB"],
       summary:
         "E-commerce platform for buying and selling books, featuring user authentication, book reviews, and a shopping cart.",
       link: "https://book-store-rho-five.vercel.app/",

@@ -8,7 +8,7 @@ export default function ProjectCard({ project }) {
       <h3 className="text-xl font-bold text-white mb-3">{project.title}</h3>
       <p className="text-gray-400 mb-4">{project.summary}</p>
       <div className="flex flex-wrap gap-2 mb-4">
-        {project.stack.map((s) => (
+        {project.Technologies.map((s) => (
           <span
             key={s}
             className="px-3 py-1 text-sm bg-cyan-900/50 text-cyan-200 rounded-full"
